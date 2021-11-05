@@ -1,0 +1,24 @@
+{
+  "name": "site-monitor-test-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "playwright test --config=test.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidandev/site-monitor-test-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidandev/site-monitor-test-site/issues"
+  },
+  "homepage": "https://github.com/vidandev/site-monitor-test-site#readme",
+  "dependencies": {
+    "@playwright/test": "^1.16.3",
+    "playwright": "^1.16.3"
+  }
+}
