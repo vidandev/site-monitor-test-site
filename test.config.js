@@ -1,5 +1,5 @@
 module.exports = {
-    user: {
+    use: {
         headless: false,
         baseURL: "https://playwright.dev"
     },
