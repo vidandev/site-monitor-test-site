@@ -1,6 +1,7 @@
 module.exports = {
     user: {
-        headless: false
+        headless: false,
+        baseURL: "https://playwright.dev"
     },
     reporter: [
         ['json', {  outputFile: 'test-results.json' }],
